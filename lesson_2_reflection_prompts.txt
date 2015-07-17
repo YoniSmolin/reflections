@@ -15,10 +15,27 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	Add all files which correspond to a single logical change into the staging area
+	and then commit them. This can be done multiple times until all logical changes
+	were comitted.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	1. When you would like to create a substantially different version of your program, that
+	   has its own timeline of commits, you should branch.
+	2. When you would like to have a development/experimental code that is not necessarily 
+	   stable and simultaneously - a stable version of your code (which does not contain all
+    	   the latest and greatest updates), you should branch.
+	
+	With branches, the hisroty of commits is arranged into a tree, each branch of which has its
+	own, independent linetime...
+
 How do the diagrams help you visualize the branch structure?
+
+	The diagram allow us to trace back all the commits that are reachable from a certain branch.
+        Those commits are the history of development for the code in this branch. The diagram is an intuitive
+	way to understand all that is happening currently in a certain coding project.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?

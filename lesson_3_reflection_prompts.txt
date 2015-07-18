@@ -30,7 +30,9 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+	I would probably send e-mails. It would be easier because there's no new API which is necessary to master.
+	It would be way harder to navigate the progress and finding older versions or merging local and remote versions
+	because e-mails get very messy when discussing code...
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?

@@ -8,17 +8,24 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+	Pulling changes advances the branch label to the latest commit and may introduce modifications
+	to the current working-directory version of the files. If we are in the process of editting a file,
+	we would not like to be interrupted by a pull operation which may imply a merge must be performed.       
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+
+	Forks are used to copy an existing repository from another person's profile to my own.
+	Clones are used to copy over a repository from a remote site like GitHub or from a local
+	path to a different local path.
+	Branches are used to label commits that represent a certain version of the project and its
+	history.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+	This allows one to consider the changes made remotely and merge them into the local version.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?

@@ -37,4 +37,8 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+	Apart from the examples we saw before (using branches for a separate version of the project), branches are useful
+	when working in a collaboration with someone: A new branch should be added for a modification/feature that the
+	developer is introducing, then the developer should merge the latest version of master into the tip of his new
+	branch and create a pull request to be reviewed by the team-lead/project-manager/etc. When the pull request is approved,
+	the new branch should be merged back into master and thus the development cycle completes...
